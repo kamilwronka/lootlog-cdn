@@ -1,0 +1,10 @@
+name = "lootlog-cdn-edge"
+main = "src/index.js"
+compatibility_date = "2022-06-30"
+
+account_id = "af14a6be395e137fcc763ccc2d0df9a3"
+workers_dev = true
+
+[[r2_buckets]]
+binding = 'LOOTLOG_CDN_BUCKET' # <~ valid JavaScript variable name
+bucket_name = 'lootlog-cdn'
